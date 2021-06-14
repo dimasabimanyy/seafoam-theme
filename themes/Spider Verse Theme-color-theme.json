@@ -3,17 +3,17 @@
   "type": "dark",
   "colors": {
     //  # Base colors
-    "focusBorder": "#1d6654d2",
+    "focusBorder": "#4b1d66d2",
     "widget.shadow": "#07265f33",
-    // "selection.background": "#ff0000",
-    // "descriptionForeground": "#ff0000",
-    // "errorForeground": "#ff0000",
     "icon.foreground": "#96f7f7",
-    // "sash.hoverBorder": "#ff0000",
 
-    // # Text colors. Colors inside a text document, such as the welcome page.
+    // # Text colors
+    "textBlockQuote.background": "#ff0000",
+    "textLink.foreground": "#18D8A8",
+    "textLink.activeForeground": "#04af84",
+    "textBlockQuote.border": "#ff0000",
 
-    // # Action Colors. A set of colors to control the interactions with actions across the workbench.
+    // # Action Colors
     "toolbar.hoverBackground": "#485979",
     "toolbar.hoverOutline": "#ffb703",
     "toolbar.activeBackground": "#415d91",
@@ -45,23 +45,30 @@
 
     // # Sidebar
     "sideBar.foreground": "#9494a8",
-    "sideBarSectionHeader.background": "#1B2434",
-    // "sideBar.border": "#192944",
+    "sideBarSectionHeader.background": "#141b29",
     "sideBarSectionHeader.foreground": "#2af8c5",
-    "sideBar.background": "#151a25",
+    "sideBar.background": "#11161f",
     "sideBarTitle.foreground": "#2af8c5",
+    "sideBarSectionHeader.border": "#151a25",
 
     // # Scrollbar
-    "scrollbarSlider.background": "#264653",
-    "scrollbar.shadow": "#014937ce",
-    "scrollbarSlider.hoverBackground": "#2e5d70",
-    "scrollbarSlider.activeBackground": "#2e5d70",
+    "scrollbarSlider.background": "#2646538c",
+    "scrollbar.shadow": "#01493700",
+    "scrollbarSlider.hoverBackground": "#2e5d7085",
+    "scrollbarSlider.activeBackground": "#2e5d708f",
 
     // # Lists & Trees
+    "list.hoverForeground": "#e2e2e7",
+    "list.hoverBackground": "#253146",
+    "list.focusBackground": "#151a25",
+    "list.activeSelectionBackground": "#253146",
+    "list.dropBackground": "#253146",
+    "list.activeSelectionForeground": "#e2e2e7",
+    "list.inactiveSelectionBackground": "#151a25",
+    "list.inactiveSelectionForeground": "#dadada",
 
     // # Activity bar
-    "activityBar.background": "#151a25",
-    // "activityBar.activeBackground": "#20293d",
+    "activityBar.background": "#11161f",
     "activityBar.activeBorder": "#18D8A8",
     "activityBar.foreground": "#7db7cc",
     "activityBar.inactiveForeground": "#4a7281",
@@ -72,7 +79,7 @@
     "minimap.errorHighlight": "#ff4747",
     "minimap.warningHighlight": "#ffcc66",
     "minimap.findMatchHighlight": "#18D8A8",
-    "minimap.background": "#171f2e",
+    "minimap.background": "#141b29",
     "minimapSlider.background": "#33446194",
     "minimapSlider.hoverBackground": "#334461b6",
     "minimapSlider.activeBackground": "#334461b6",
@@ -82,24 +89,23 @@
     // # Editor groups and tabs
     "editorGroup.border": "#264653",
     "editorGroup.dropBackground": "#1B2434",
-    "tab.activeBackground": "#243146",
-    "tab.inactiveBackground": "#1B2434",
-    "editorGroupHeader.tabsBorder": "#111927",
+    "tab.activeBackground": "#141b29",
+    "tab.inactiveBackground": "#11161f",
     "tab.activeBorder": "#18D8A8",
-    // "editorGroup.emptyBackground": "#ff0000",
-    // "editorGroupHeader.noTabsBackground": "#ff0000",
-    "editorGroupHeader.tabsBackground": "#1B2434",
+    "editorGroupHeader.tabsBackground": "#11161f",
     "tab.hoverBackground": "#243146",
     "tab.activeForeground": "#d6d6f3",
+    "tab.unfocusedActiveBorder": "#ffcc66",
+    "tab.border": "#f8f8f800",
     // ...
 
     // # Editor colors
-    "editor.background": "#171f2e",
+    "editor.background": "#141b29",
 
     // # Diff editor colors
 
     // # Editor widget colors
-    "editorWidget.background": "#151a25",
+    "editorWidget.background": "#11161f",
     "editorWidget.foreground": "#c1c1dd",
     "editorHoverWidget.background": "#171f2e",
     "editorHoverWidget.foreground": "#c1c1dd",
@@ -111,7 +117,7 @@
     // # Merge conflict colors
 
     // # Panel colors
-    "panel.background": "#151a25",
+    "panel.background": "#11161f",
     "panel.border": "#1f3457",
     "panelTitle.inactiveForeground": "#8a8a9e",
     "panelTitle.activeBorder": "#9494a8",
@@ -123,16 +129,16 @@
     "statusBarItem.activeBackground": "#151a25",
 
     // # Title bar
-    "titleBar.activeBackground": "#151a25",
+    "titleBar.activeBackground": "#11161f",
 
     // # Menu bar
-    "menubar.selectionBackground": "#1f2738",
+    "menubar.selectionBackground": "#111620",
     "menubar.selectionBorder": "#ffcc66",
     "menubar.selectionForeground": "#9494a8",
     "menu.foreground": "#9494a8",
-    "menu.background": "#151a25",
-    "menu.border": "#0d1b38",
-    "menu.selectionBackground": "#242d3f",
+    "menu.background": "#11161f",
+    "menu.border": "#1d2a465d",
+    "menu.selectionBackground": "#1d2433d8",
     "menu.selectionForeground": "#e0e0e7",
 
     // # Notification colors
@@ -153,7 +159,7 @@
     "keybindingLabel.foreground": "#1a1a1a",
 
     // # Integrated terminal colors
-    "terminal.background": "#151a25",
+    "terminal.background": "#11161f",
     "terminal.foreground": "#ababc0",
 
     // # Debug colors
@@ -161,6 +167,9 @@
     // # Testing views colors
 
     // # Welcome page colors
+    "welcomePage.background": "#141b29",
+    "welcomePage.buttonBackground": "#11161f",
+    "welcomePage.buttonHoverBackground": "#0d1118",
 
     // # Source control colors
 
@@ -180,7 +189,6 @@
     // # Debug icon colors
 
     // # Notebook colors
-    // "notebookScrollbarSlider.hoverBackground": "#ff0000",
 
     // # Chart colors
 
