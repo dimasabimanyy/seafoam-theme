@@ -234,7 +234,7 @@
       "name": "Keyword, Storage",
       "scope": ["keyword", "storage.type", "storage.modifier"],
       "settings": {
-        "foreground": "#C792EA"
+        "foreground": "#8695b7"
       }
     },
     {
@@ -257,6 +257,114 @@
         "foreground": "#89DDFF"
       }
     },
+    // -> MY CUSTOM JS
+    {
+      "name": "Import js",
+      "scope": ["keyword.control.import.js", "keyword.control.from.js"],
+      "settings": {
+        "foreground": "#ffae57"
+      }
+    },
+    {
+      "name": "Source imported",
+      "scope": ["variable.other.readwrite.alias.js"],
+      "settings": {
+        "foreground": "#47daff"
+      }
+    },
+    {
+      "name": "Source link",
+      "scope": ["string.quoted.double.js"],
+      "settings": {
+        "foreground": "#afdb71"
+      }
+    },
+    {
+      "name": "Div",
+      "scope": ["entity.name.tag.js"],
+      "settings": {
+        "foreground": "#74dff5"
+      }
+    },
+    {
+      "name": "Classname jsx",
+      "scope": ["entity.other.attribute-name.js"],
+      "settings": {
+        "foreground": "#ffb668"
+      }
+    },
+    {
+      "name": "Classname jsx",
+      "scope": ["meta.object-literal.key.js"],
+      "settings": {
+        "foreground": "#ffd580"
+      }
+    },
+    {
+      "name": "Variable other js",
+      "scope": [
+        "variable.other.constant.js",
+        "variable.other.readwrite.js",
+        "variable.other.object.js"
+      ],
+      "settings": {
+        "foreground": "#ffd580"
+      }
+    },
+    {
+      "name": "Variable property js",
+      "scope": ["variable.other.property.js"],
+      "settings": {
+        "foreground": "#74dff5"
+      }
+    },
+    {
+      "name": "Markup underline",
+      "scope": ["markup.underline.link.markdown", "meta.link.inline.markdown"],
+      "settings": {
+        "foreground": "#74dff5"
+      }
+    },
+    // # END MY CUSTOM JS
+    // -> MY CUSTOM CSS
+    {
+      "name": "CSS class",
+      "scope": ["support.type.property-name.css"],
+      "settings": {
+        "foreground": "#74dff5"
+      }
+    },
+    {
+      "name": "Class keyword in CSS",
+      "scope": ["entity.other.attribute-name.class.css"],,
+      "settings": {
+        "foreground": "#ffae57"
+      }
+    },
+    {
+      "name": "CSS class value",
+      "scope": [
+        "support.constant.property-value.css",
+        "keyword.other.unit.rem.css",
+        "meta.property-value.scss",
+        "punctuation.terminator.rule.scss",
+        "constant.numeric.css",
+        "keyword.other.unit.px.css",
+        "keyword.other.unit.percentage.css",
+        "keyword.other.unit.fr.css"
+      ],
+      "settings": {
+        "foreground": "#a2aabc"
+      }
+    },
+    {
+      "name": "Keyword Important in CSS",
+      "scope": ["keyword.other.important.scss"],
+      "settings": {
+        "foreground": "#ffae57"
+      }
+    },
+    // # END MY CUSTOM CSS
     {
       "name": "Tag",
       "scope": [
@@ -265,7 +373,7 @@
         "markup.deleted.git_gutter"
       ],
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#74dff5"
       }
     },
     {
@@ -278,21 +386,21 @@
         "keyword.other.special-method"
       ],
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#1df8db"
       }
     },
     {
       "name": "Block Level Variables",
       "scope": ["meta.block variable.other"],
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#ef6b73"
       }
     },
     {
       "name": "Other Variable, String Link",
       "scope": ["support.other.variable", "string.other.link"],
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#ef6b73"
       }
     },
     {
@@ -308,7 +416,7 @@
         "keyword.other"
       ],
       "settings": {
-        "foreground": "#F78C6C"
+        "foreground": "#8695b7"
       }
     },
     {
@@ -404,7 +512,7 @@
       "name": "Attributes",
       "scope": ["entity.other.attribute-name"],
       "settings": {
-        "foreground": "#C792EA"
+        "foreground": "#ffae57"
       }
     },
     {
@@ -501,7 +609,7 @@
         "source.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#C792EA"
+        "foreground": "#74dff5"
       }
     },
     {
@@ -528,7 +636,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#FF5370"
+        "foreground": "#6bc8f3"
       }
     },
     {
@@ -555,7 +663,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#ef6b73"
       }
     },
     {
@@ -583,7 +691,7 @@
         "punctuation.definition.list_item.markdown"
       ],
       "settings": {
-        "foreground": "#EEFFFF"
+        "foreground": "#ffeeee"
       }
     },
     {
@@ -618,7 +726,7 @@
       "scope": ["markup.italic"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#f07178"
+        "foreground": "#ef6b73"
       }
     },
     {
@@ -626,7 +734,7 @@
       "scope": ["markup.bold", "markup.bold string"],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#f07178"
+        "foreground": "#ef6b73"
       }
     },
     {
@@ -641,7 +749,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#f07178"
+        "foreground": "#ef6b73"
       }
     },
     {
@@ -649,7 +757,7 @@
       "scope": ["markup.underline"],
       "settings": {
         "fontStyle": "underline",
-        "foreground": "#F78C6C"
+        "foreground": "#ef6b73"
       }
     },
     {
@@ -670,7 +778,7 @@
       "name": "Markdown - Link",
       "scope": ["string.other.link.title.markdown"],
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#5ccfe6"
       }
     },
     {
