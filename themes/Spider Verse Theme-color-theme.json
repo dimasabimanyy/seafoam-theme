@@ -336,7 +336,7 @@
     },
     {
       "name": "Class keyword in CSS",
-      "scope": ["entity.other.attribute-name.class.css"],,
+      "scope": ["entity.other.attribute-name.class.css"],
       "settings": {
         "foreground": "#ffae57"
       }
@@ -364,7 +364,21 @@
         "foreground": "#ffae57"
       }
     },
-    // # END MY CUSTOM CSS
+    {
+      "name": "Comment line",
+      "scope": ["comment.line.double-slash.js", "comment.line.double-slash.js"],
+      "settings": {
+        "foreground": "#404b66"
+      }
+    },
+    {
+      "name": "Variable parameter js",
+      "scope": ["variable.parameter.js"],
+      "settings": {
+        "foreground": "#fffc66"
+      }
+    },
+    // # END MY CUSTOM
     {
       "name": "Tag",
       "scope": [
@@ -691,7 +705,7 @@
         "punctuation.definition.list_item.markdown"
       ],
       "settings": {
-        "foreground": "#ffeeee"
+        "foreground": "#d3d1d1"
       }
     },
     {
@@ -778,7 +792,7 @@
       "name": "Markdown - Link",
       "scope": ["string.other.link.title.markdown"],
       "settings": {
-        "foreground": "#5ccfe6"
+        "foreground": "#ffd580"
       }
     },
     {
