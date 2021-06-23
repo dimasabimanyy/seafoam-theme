@@ -9,7 +9,7 @@
 
     // # Text colors
     "textBlockQuote.background": "#ff0000",
-    "textLink.foreground": "#18D8A8",
+    "textLink.foreground": "#20eebb",
     "textLink.activeForeground": "#04af84",
     "textBlockQuote.border": "#ff0000",
 
