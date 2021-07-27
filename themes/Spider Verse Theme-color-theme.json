@@ -8,10 +8,10 @@
     "icon.foreground": "#96f7f7",
 
     // # Text colors
-    "textBlockQuote.background": "#ff0000",
+    // "textBlockQuote.background": "#ff0000",
     "textLink.foreground": "#20eebb",
     "textLink.activeForeground": "#04af84",
-    "textBlockQuote.border": "#ff0000",
+    // "textBlockQuote.border": "#ff0000",
 
     // # Action Colors
     "toolbar.hoverBackground": "#485979",
