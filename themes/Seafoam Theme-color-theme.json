@@ -133,7 +133,7 @@
 
     // # Menu bar
     "menubar.selectionBackground": "#111620",
-    "menubar.selectionBorder": "#ffcc66",
+    "menubar.selectionBorder": "#18D8A8",
     "menubar.selectionForeground": "#9494a8",
     "menu.foreground": "#9494a8",
     "menu.background": "#11161f",
@@ -155,7 +155,7 @@
     // # Quick picker colors
 
     // # Keybinding label colors
-    "keybindingLabel.background": "#ffcc66",
+    "keybindingLabel.background": "#18D8A8",
     "keybindingLabel.foreground": "#1a1a1a",
 
     // # Integrated terminal colors

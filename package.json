@@ -1,21 +1,21 @@
 {
-    "name": "spider-verse-theme",
-    "displayName": "Spider Verse Theme",
-    "description": "VS Code theme inspired by Spiderman : Into the Spider Verse Movie",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.56.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Spider Verse Theme",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Spider Verse Theme-color-theme.json"
-            }
-        ]
-    }
+  "name": "seafoam-theme",
+  "displayName": "Seafoam Theme",
+  "description": "Visual Studio Code Theme.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.56.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Seafoam Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Seafoam Theme-color-theme.json"
+      }
+    ]
+  }
 }
