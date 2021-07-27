@@ -15,7 +15,7 @@
 
     // # Action Colors
     "toolbar.hoverBackground": "#485979",
-    "toolbar.hoverOutline": "#ffb703",
+    "toolbar.hoverOutline": "#18D8A8",
     "toolbar.activeBackground": "#415d91",
 
     // # Button control
@@ -39,7 +39,7 @@
     // ...
 
     // # Badge & Progress bar
-    "badge.background": "#ffcc66",
+    "badge.background": "#18D8A8",
     "badge.foreground": "#0f0f0f",
     "progressBar.background": "#18D8A8",
 
@@ -73,7 +73,7 @@
     "activityBar.foreground": "#7db7cc",
     "activityBar.inactiveForeground": "#4a7281",
     "activityBarBadge.foreground": "#0f0f0f",
-    "activityBarBadge.background": "#ffcc66",
+    "activityBarBadge.background": "#18D8A8",
 
     // # Mini map
     "minimap.errorHighlight": "#ff4747",
@@ -95,7 +95,7 @@
     "editorGroupHeader.tabsBackground": "#11161f",
     "tab.hoverBackground": "#243146",
     "tab.activeForeground": "#d6d6f3",
-    "tab.unfocusedActiveBorder": "#ffcc66",
+    "tab.unfocusedActiveBorder": "#18D8A8",
     "tab.border": "#f8f8f800",
     // ...
 
@@ -149,7 +149,7 @@
     "notificationLink.foreground": "#b4b4c5",
 
     // # Extension colors
-    "extensionIcon.starForeground": "#ffcc66",
+    "extensionIcon.starForeground": "#18D8A8",
     "extensionButton.prominentForeground": "#1a1a1a",
 
     // # Quick picker colors
@@ -180,7 +180,7 @@
     // # Breadcrumbs color
     "breadcrumb.background": "#171f2e",
     "breadcrumb.foreground": "#8b8bb9",
-    "breadcrumb.focusForeground": "#ffcc66",
+    "breadcrumb.focusForeground": "#18D8A8",
 
     // # Snippets colors
 
