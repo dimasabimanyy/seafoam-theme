@@ -2,9 +2,15 @@
   "name": "seafoam-theme",
   "displayName": "Seafoam Theme",
   "description": "Visual Studio Code Theme.",
+  "icon": "images/seafoam logo.png",
+  "publisher": "DimasAbimanyu",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.56.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dimasabimanyy/seafoam-theme"
   },
   "categories": [
     "Themes"
