@@ -33,3 +33,7 @@
   <li>Click <strong>Reload</strong> to reload the editor</li>
   <li>Code &gt; Preferences &gt; Color Theme &gt; <strong>Seafoam</strong></li>
 </ol>
+
+## Icon Theme
+
+The file icon theme seen in the screenshot above is [VSCode Icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
