@@ -22,7 +22,10 @@
   </a>
 </p>
   
-  ![demo](https://raw.githubusercontent.com/dimasabimanyy/seafoam-theme/master/images/demo.png)
+  
+ <p align="center">
+  <img alt="Demo" src="https://raw.githubusercontent.com/dimasabimanyy/seafoam-theme/master/images/demo.png" width="100%" />
+</p>
   
   <h2 id="user-content-installation-via-vs-code" class="link-header">Installation via VS Code</h2>
   
