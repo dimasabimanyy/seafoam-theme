@@ -4,6 +4,15 @@
   "description": "Visual Studio Code Theme.",
   "icon": "images/seafoam-logo.png",
   "publisher": "DimasAbimanyu",
+  "bugs": {
+    "url": "https://github.com/dimasabimanyy/seafoam-theme/issues",
+    "email": "dmsabmny@gmail.com"
+  },
+  "homepage": "https://github.com/dimasabimanyy/seafoam-theme/blob/master/README.md",
+  "galleryBanner": {
+    "color": "#171c28",
+    "theme": "dark"
+  },
   "version": "0.0.6",
   "engines": {
     "vscode": "^1.56.0"
